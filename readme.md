@@ -4,7 +4,7 @@ This is a Python implementation of the Broyden–Fletcher–Goldfarb–Shanno (B
 
 Derivatives are estimated using the standard finite difference approximations.
 
-The stepsize along the gradient direction is defined using Bisection algorithm for weak Wolfe conditions.
+The step size along the gradient direction is defined using Bisection algorithm for weak Wolfe conditions.
 
 The STOP conditions are the maximum number of iterations or the accuracy $\| \nabla f \| <= \varepsilon$.
 
