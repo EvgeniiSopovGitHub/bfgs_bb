@@ -54,6 +54,7 @@ def get_alpha(x, f, dim, drv, direction, objective, verbose=0):
                 if verbose != 0:
                     print("Wolfe conditions are satisfied.")
                 return a, FEs
+        iter_count += 1
     if verbose != 0:
         print("line search. 10 iterations done.")
     return a, FEs
